@@ -1,0 +1,50 @@
+body {
+    font-family: Papyrus, 'Times New Roman', Times, serif;
+    background-color: rgba(57, 0, 57, 0.805);
+    color: yellow;
+    background-image: url("../assets/img/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: yellow;
+    background-color: gray;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    border: 5px solid white;
+    padding: 5px;
+    height: 300px;
+    /* margin: auto;
+    display: block; */
+}
+
+.rizz {
+    font-family: Algerian, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    color: hotpink;
+    border: 5px dashed lime;
+    font-size: 400%;
+    font-weight: bolder;
+    background-color: red;
+}
+
+.rizz:hover {
+    font-size: 450%;
+    color: blue;
+    border: 10px solid cyan;
+}
+
+li {
+    width: fit-content;
+}
+
+li:hover {
+    text-decoration: underline;
+    background-color: gray;
+}
